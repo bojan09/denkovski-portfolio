@@ -1,0 +1,24 @@
+.navbar {
+    font-size: 2rem;
+    margin-left: 7rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.nav-list_link {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.nav-list_link a {
+    color: #fff;
+}
+
+.nav-list_link a:hover {
+    color: var(--font-clr-primary);
+}
