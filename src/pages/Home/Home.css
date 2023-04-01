@@ -48,7 +48,7 @@
 /* Image  */
 .profile-img {
     width: 100%;
-    max-width: 70rem;
+    max-width: 75rem;
     height: auto;
 
     position: absolute;
@@ -59,8 +59,9 @@
 .profile-img img {
     overflow: hidden;
     background-size: cover;
-
 }
+
+
 
 
 /* Media Query  */
@@ -70,7 +71,7 @@
     .home {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: -7rem;
+        margin-left: -12rem;
     }
 
 
@@ -88,6 +89,38 @@
     }
 
 
+
+    .profile-img {
+        width: 100%;
+        max-width: 55rem;
+        height: auto;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .profile-img {
+        width: 100%;
+        max-width: 45rem;
+        height: auto;
+        position: absolute;
+        margin-right: -.5rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .profile-img {
+        width: 100%;
+        max-width: 35rem;
+        height: auto;
+        position: absolute;
+        margin-right: -.5rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
 
     .profile-img {
         display: none;

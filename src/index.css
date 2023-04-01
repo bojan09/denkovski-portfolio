@@ -29,6 +29,7 @@ body {
   height: 100%;
   color: var(--font-clr-primary);
   background-color: var(--main-bg);
+  margin-inline: auto;
 }
 
 a,
