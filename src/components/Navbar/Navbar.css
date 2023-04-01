@@ -1,6 +1,6 @@
 .navbar {
-    font-size: 2rem;
-    margin-left: 7rem;
+    margin-left: 10rem;
+    width: 35rem;
 }
 
 .nav-list {
@@ -12,7 +12,7 @@
 .nav-list_link {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .nav-list_link a {
@@ -21,4 +21,20 @@
 
 .nav-list_link a:hover {
     color: var(--font-clr-primary);
+}
+
+/* Media Query  */
+
+@media screen and (max-width: 1115px) {
+
+    .navbar {
+        margin: 2rem 0 0 2rem;
+    }
+
+    .nav-list_link {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
 }
