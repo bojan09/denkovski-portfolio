@@ -4,6 +4,7 @@ import "./Home.css";
 
 // image
 import profilePic from "../../assets/images/profile_pic.svg";
+import profileMobilePic from "../../assets/images/portfolio-img.jpg";
 
 const Home = () => {
   return (
@@ -13,6 +14,11 @@ const Home = () => {
         <h1 className="home-heading">
           Hi! I'm <br /> <span className="home-heading_name">Milan</span>
         </h1>
+        <img
+          src={profileMobilePic}
+          alt="profile-mobile_pic"
+          className="profile-img_mobile"
+        />
 
         <p className="home-bio">
           Looking for a skilled and <br /> experienced UI/UX designer?

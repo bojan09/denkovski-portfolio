@@ -1,6 +1,9 @@
 .navbar {
-    margin-left: 14rem;
-    width: 35rem;
+    /* margin-left: 14rem; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    width: 50%;
 }
 
 .nav-list {
@@ -8,6 +11,7 @@
     gap: 2rem;
     padding: 1rem;
     margin-top: 1rem;
+    grid-column: 2/3;
 }
 
 .nav-list_link {
@@ -27,15 +31,16 @@
 /* Media Query  */
 
 @media screen and (max-width: 1115px) {
-
-    .navbar {
-        margin: 2rem 0 0 2rem;
-    }
-
     .nav-list_link {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 2rem;
     }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .nav-list_link {}
 
 }
