@@ -1,9 +1,6 @@
 // React
 import React from "react";
 
-// styling
-import "./App.css";
-
 // components
 import { Navbar, Footer } from "./components";
 

@@ -1,40 +1,28 @@
 .navbar {
-    /* margin-left: 14rem; */
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    width: 50%;
+    /* background-color: palegreen; */
 }
 
 .nav-list {
     display: flex;
-    gap: 2rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    grid-column: 2/3;
+    justify-content: center;
+    gap: 1rem;
+    margin: clamp(1.5rem, 2.5vh, 10rem) clamp(1rem, 3.5vh, 10rem);
 }
 
 .nav-list_link {
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    font-weight: 700;
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 2rem;
-}
-
-.nav-list_link a {
-    color: #fff;
 }
 
 .nav-list_link a:hover {
     color: var(--font-clr-primary);
 }
 
-/* Media Query  */
-
-@media screen and (max-width: 1115px) {
-    .nav-list_link {
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 2rem;
+@media screen and (min-width: 500px) {
+    .nav-list {
+        gap: 2.4rem;
+        margin: clamp(1.5rem, 2.5vh, 10rem) 0;
+        justify-content: flex-start;
     }
-
 }

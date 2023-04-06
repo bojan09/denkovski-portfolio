@@ -14,11 +14,13 @@ const Home = () => {
         <h1 className="home-heading">
           Hi! I'm <br /> <span className="home-heading_name">Milan</span>
         </h1>
-        <img
-          src={profileMobilePic}
-          alt="profile-mobile_pic"
-          className="profile-img_mobile"
-        />
+        <div className="profile-img_mobile-container">
+          <img
+            src={profileMobilePic}
+            alt="profile-mobile_pic"
+            className="profile-img_mobile"
+          />
+        </div>
 
         <p className="home-bio">
           Looking for a skilled and <br /> experienced UI/UX designer?

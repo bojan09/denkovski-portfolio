@@ -1,40 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* {
+
+/* ------------------------------- */
+/* ----- Custom properties ------- */
+/* ------------------------------- */
+
+:root {
+
+  /* COLORS */
+
+  /* font colors */
+  --font-clr-primary: #F54E29;
+  --font-clr-secondary: #159fcd;
+
+  /* background */
+  --clr-main-bg: #07485D;
+
+
+  /* FONT-FAMILY */
+  --ff-montserrat: "Montserrat", serif;
+
+}
+
+
+/* Box sizing */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-:root {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.5;
-  font-size: 62.5%;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-
-  /* font colors */
-  --font-clr-primary: #F54E29;
-  --font-clr-secondary: #159fcd;
-  /* background */
-  --main-bg: #07485D;
 }
 
-body {
-  width: minmax(min-content, 80%);
-  height: 100%;
-  color: var(--font-clr-primary);
-  background-color: var(--main-bg);
-  margin-inline: auto;
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
 
+
+/* Styling the links */
 a,
+Link,
 li,
-Link {
-  text-decoration: none;
+ul {
   list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* set up the body */
+body {
+  font-size: 62.5%;
+  font-family: var(--ff-montserrat);
+  color: #fff;
+  background-color: var(--clr-main-bg);
+  width: 100%;
+  max-width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

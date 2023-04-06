@@ -1,162 +1,93 @@
-.home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-    margin-inline: auto;
+.profile-img {
+    display: none;
 }
 
 
-/* Left Container */
 
 .left-container {
-    /* margin-left: 16rem; */
-    /* padding-top: 10rem; */
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-heading {
-    color: #fff;
-    font-size: 7.5rem;
-    margin-top: 5rem;
-    grid-column: 2/4;
-    grid-row: 1/2;
+    padding: 4rem 0;
+    font-size: clamp(1rem, 10vw, 5.5rem);
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .home-heading_name {
     color: var(--font-clr-primary);
 }
 
-.home-bio {
-    color: var(--font-clr-secondary);
-    font-size: 3.2rem;
-    margin-top: 5rem;
-    grid-column: 2/5;
-    grid-row: 2/3;
-}
-
-.home-btn {
-    font-weight: 700;
-    font-size: 3rem;
-    color: #fff;
-    background-color: var(--font-clr-primary);
-    border-radius: 10rem;
-    border: none;
-    cursor: pointer;
-    grid-column: 2/4;
-    grid-row: 3/4;
-    max-height: 10.5rem;
-    max-width: 30rem;
-}
-
-.home-btn:hover {
-    color: var(--font-clr-primary);
-    background-color: #fff;
-
-}
-
-/* Image  */
-.profile-img {
-    width: 100%;
-    max-width: 70rem;
-    height: auto;
-
-    position: absolute;
-    right: 0;
-    top: 0;
+.profile-img_mobile-container {
+    display: flex;
+    justify-content: center;
 }
 
 .profile-img_mobile {
-    display: none;
+    max-width: 50vw;
+    border-radius: 10rem;
+}
+
+.home-bio {
+    font-size: clamp(1rem, 5.5vw, 3rem);
+    padding: 3.2rem 0;
+}
+
+.home-btn {
+    padding: clamp(.5rem, 4.5vw, 3rem) clamp(1rem, 8.5vw, 4rem);
+    color: #fff;
+    background-color: var(--font-clr-primary);
+    font-size: clamp(1.2rem, 5.5vw, 3rem);
+    font-weight: 700;
+    border-radius: 10rem;
+    border: none;
+    cursor: pointer;
 }
 
 
-/* Media Query  */
+.home-btn:hover {
+   color: var(--font-clr-primary);
+   background-color: #fff;
 
-@media screen and (max-width: 1115px) {
-    .home-bio {
-        font-size: 2.8rem;
-    }
-
-    .home-btn {
-        padding: 1.5rem 3rem;
-    }
-
-    .left-container {
-        position: relative;
-    }
-
-
-
-    .profile-img {
-        width: 100%;
-        max-width: 55rem;
-        height: auto;
-        position: absolute;
-    }
 }
 
-@media screen and (max-width: 850px) {
 
-    .profile-img {
-        width: 100%;
-        max-width: 45rem;
-        height: auto;
-        position: absolute;
-        margin-right: -.5rem;
-    }
-}
-
-@media screen and (max-width: 750px) {
-
-    .profile-img {
-        width: 100%;
-        max-width: 35rem;
-        height: auto;
-        position: absolute;
-        margin-right: -.5rem;
-    }
-}
-
-@media screen and (max-width: 680px) {
-
-
-
-    .left-container,
+@media screen and (min-width: 500px) {
     .home {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
 
-    .home-heading {
-        margin-top: 12rem;
-    }
-
-    .home-bio {
-        margin-bottom: 7rem;
-        margin-inline: 2rem;
-        font-size: 2.4rem;
-
-    }
-
-    .home-btn {
-        padding: 2.5rem 5.2rem;
+    .left-container {
+        align-items: flex-start;
     }
 
 
-    .profile-img {
+    .profile-img_mobile {
         display: none;
     }
 
-    .profile-img_mobile {
-        width: 100%;
-        max-width: 30rem;
-        height: auto;
-        display: flex;
-        border-radius: 25rem;
-        margin-top: 8rem;
+    .profile-img {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 40%;
     }
+
+
+    .home-btn {
+        margin-top: 2rem;
+        padding: clamp(.5rem, 2.5vw, 1.2rem) clamp(1rem, 8.5vw, 2.9rem);
+        font-size: clamp(.5rem, 5.5vw, 1.9rem);
+
+    }
+
+
 }
