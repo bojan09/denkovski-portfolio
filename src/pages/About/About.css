@@ -1,0 +1,35 @@
+.about {
+    margin-top: 3.5rem;
+}
+
+.about-heading {
+    font-size: clamp(1rem, 2.5vh, 3rem);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.about-social_icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+    .about {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-heading {
+        font-size: clamp(2.3rem, 2.5vh, 5rem);
+        font-weight: 500;
+        margin: 4rem 0;
+    }
+
+    .about-social_icons {
+        width: 17rem;
+        justify-self: flex-end;
+        align-self: flex-end;
+    }
+
+}
