@@ -8,6 +8,7 @@ import { Navbar, Footer } from "./components";
 import {
   Home,
   About,
+  HireMe,
   Services,
   Education,
   Projects,
@@ -21,6 +22,7 @@ const App = () => (
     <Navbar />
     <Home />
     <About />
+    <HireMe />
     <Services />
     <Education />
     <Projects />
