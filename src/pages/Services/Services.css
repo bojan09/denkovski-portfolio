@@ -42,6 +42,7 @@
 
     .services-heading {
         font-size: var(--fs-heading);
+        margin: 6rem 0;
     }
 
     .services-box_container {

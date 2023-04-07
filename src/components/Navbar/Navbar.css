@@ -22,7 +22,7 @@
 @media screen and (min-width: 500px) {
     .nav-list {
         gap: 2.4rem;
-        margin: clamp(1.5rem, 2.5vh, 10rem) 0;
+        margin: clamp(1.5rem, 3.2vh, 10rem) 0;
         justify-content: flex-start;
     }
 }

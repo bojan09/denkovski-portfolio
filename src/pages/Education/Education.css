@@ -50,11 +50,11 @@
 @media screen and (min-width:1000px) {
 
     .education {
-        margin-top: 10rem;
+        margin-top: 15rem;
     }
 
     .education-heading {
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
         font-size: var(--fs-heading);
     }
 
@@ -62,7 +62,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: 8rem;
     }
 
     .education-box {
