@@ -17,9 +17,11 @@
 }
 
 .service-box {
-    padding: 1rem;
+    padding: 1rem 1rem .175rem 1rem;
+    margin-top: 2rem;
+    height: fit-content;
+    border-radius: .3rem;
     background-color: var(--clr-secondary-bg);
-    border-radius: .6rem;
     box-shadow: .4rem .5rem 3.2rem rgba(0, 0, 0, .3);
 }
 
@@ -35,7 +37,12 @@
     margin: 1rem 0 3rem 0;
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:1000px) {
+
+
+    .services-heading {
+        font-size: var(--fs-heading);
+    }
 
     .services-box_container {
         display: grid;
@@ -46,7 +53,8 @@
     }
 
     .service-box {
-        height: 30rem;
+        height: 100%;
+        border-radius: .6rem;
         padding: 2.375rem;
     }
 

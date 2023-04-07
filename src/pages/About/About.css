@@ -21,7 +21,7 @@
     }
 
     .about-heading {
-        font-size: clamp(2.3rem, 2.5vh, 5rem);
+        font-size: var(--fs-heading);
         font-weight: 500;
         margin: 4rem 0;
     }

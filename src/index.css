@@ -21,6 +21,9 @@
   /* FONT-FAMILY */
   --ff-montserrat: "Montserrat", serif;
 
+  /* FONT SIZE */
+  --fs-heading: clamp(1rem, 2.4vw, 10rem);
+
 }
 
 
