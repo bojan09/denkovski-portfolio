@@ -50,7 +50,7 @@
     border: 2px solid hsl(84, 100%, 50%);
     border-radius: .4rem;
     color: hsl(84, 100%, 60%);
-
+    padding: 3rem 3.5rem;
 }
 
 .happy-clients_box:hover {
@@ -63,6 +63,7 @@
     border: 2px solid hsl(0, 100%, 50%);
     border-radius: .4rem;
     color: hsl(0, 100%, 60%);
+    padding: 3rem 3.5rem;
 }
 
 .projects-done_box:hover {
@@ -74,6 +75,7 @@
     border: 2px solid hsl(236, 100%, 50%);
     border-radius: .4rem;
     color: hsl(236, 100%, 60%);
+    padding: 3rem 3.5rem;
 }
 
 .reviews_box:hover {
@@ -84,7 +86,7 @@
 @media screen and (min-width:500px) {
 
     .hire-me {
-        margin-top: 5rem;
+        margin: 10rem 0;
     }
 
     .hire-me_heading {
@@ -99,7 +101,7 @@
     .hire-me_boxes {
         flex-direction: row;
         justify-content: flex-end;
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
 
     .hire-me_boxes>* {
