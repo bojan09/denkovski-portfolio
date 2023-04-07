@@ -1,0 +1,62 @@
+.hire-me>* {
+    margin-top: 1.6rem
+}
+
+.hire-me_heading {
+    font-size: clamp(1rem, 2.5vh, 3rem);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.hire-me_heading span {
+    color: var(--font-clr-primary);
+}
+
+.hire-me_paragraph {
+    font-size: clamp(.9rem, 1vh, 2rem);
+    line-height: 1.7;
+}
+
+.hire-me_boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hire-me_boxes>* {
+    width: 6rem;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hire-me_boxes h1 {
+    font-size: clamp(1rem, 4.5vh, 5rem);
+    font-weight: 600;
+}
+
+.hire-me_boxes span {
+    font-size: clamp(.7rem, 1.5vh, 3rem);
+    font-weight: 700;
+}
+
+
+
+.happy-clients_box {
+    border: 1px solid hsl(84, 100%, 50%);
+    color: hsl(84, 100%, 60%);
+}
+
+.projects-done_box {
+    border: 1px solid hsl(0, 100%, 50%);
+    color: hsl(0, 100%, 60%);
+}
+
+.reviews_box {
+    border: 1px solid hsl(236, 100%, 50%);
+    color: hsl(236, 100%, 60%);
+}
