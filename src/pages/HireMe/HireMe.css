@@ -3,7 +3,7 @@
 }
 
 .hire-me_heading {
-    font-size: clamp(1rem, 2.5vh, 3rem);
+    font-size: clamp(1rem, 3.5vh, 5rem);
     font-weight: 500;
     line-height: 1.5;
 }

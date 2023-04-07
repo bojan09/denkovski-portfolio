@@ -14,7 +14,8 @@
   --font-clr-secondary: #159fcd;
 
   /* background */
-  --clr-main-bg: #07485D;
+  --clr-main-bg: hsl(195, 86%, 20%);
+  --clr-secondary-bg: hsl(195, 86%, 25%);
 
 
   /* FONT-FAMILY */
