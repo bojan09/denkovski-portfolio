@@ -11,7 +11,7 @@ import {
   HireMe,
   Services,
   Education,
-  Projects,
+  Portfolio,
   Illustrations,
 } from "./pages";
 
@@ -25,7 +25,7 @@ const App = () => (
     <HireMe />
     <Services />
     <Education />
-    <Projects />
+    <Portfolio />
     <Illustrations />
     <Footer />
   </div>
