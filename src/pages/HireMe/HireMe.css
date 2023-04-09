@@ -1,3 +1,7 @@
+.hire-me {
+    margin: 0 auto;
+}
+
 .hire-me>* {
     margin-top: 1.6rem
 }
@@ -86,7 +90,7 @@
 @media screen and (min-width:500px) {
 
     .hire-me {
-        margin: 10rem 0;
+        margin: 10rem auto;
     }
 
     .hire-me_heading {
