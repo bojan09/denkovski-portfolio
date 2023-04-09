@@ -1,7 +1,8 @@
 import React from "react";
+import "./Illustrations.css";
 
 const Illustrations = () => {
-  return <div>Illustrations</div>;
+  return <div className="illustrations">Illustrations</div>;
 };
 
 export default Illustrations;

@@ -1,0 +1,5 @@
+.illustrations {
+    padding: 10rem 0;
+    background-color: hotpink;
+    font-size: clamp(1rem, 5vh, 10rem);
+}
