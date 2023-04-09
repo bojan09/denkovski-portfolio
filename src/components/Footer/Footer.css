@@ -26,6 +26,8 @@
 .footer-phone_icon p,
 .footer-email_icon p {
     font-size: clamp(.875rem, 2vw, 10rem);
+    color: #342b2b;
+
 }
 
 
