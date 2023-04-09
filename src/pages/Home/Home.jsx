@@ -8,7 +8,7 @@ import profileMobilePic from "../../assets/images/portfolio-img.jpg";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       {/* Left container */}
       <div className="left-container">
         <h1 className="home-heading">

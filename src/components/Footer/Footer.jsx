@@ -7,7 +7,7 @@ import MailIcon from "../../assets/icons/envelope.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <h2 className="footer-heading">Contact me</h2>
       <div className="footer-icons_container">
         <div className="footer-location_icon">
