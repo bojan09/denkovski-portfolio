@@ -77,10 +77,23 @@ body {
   color: #fff;
   background-color: var(--clr-main-bg);
   width: 100%;
-  max-width: 90vw;
+  /* max-width: 90vw; */
   height: 100%;
   margin: 0 auto;
 }
+
+.navbar,
+.about,
+.education,
+.hire-me,
+.home,
+.illustrations,
+.portfolio,
+.services {
+  max-width: 90vw;
+  margin-inline: auto;
+}
+
 
 /* make images easier to work with */
 img {
