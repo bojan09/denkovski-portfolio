@@ -46,7 +46,7 @@ const Illustrations = () => {
         draggable={false}
         infinite={true}
         keyBoardControl={true}
-        customTransition="all .5"
+        customTransition="all .8"
         transitionDuration={500}
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"

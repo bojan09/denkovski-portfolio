@@ -20,7 +20,9 @@ const Footer = () => {
         </div>
         <div className="footer-email_icon">
           <img src={MailIcon} alt="mail_icon" />
-          <p className="footer-paragraph">milan.denkovski@gmail.com</p>
+          <a href="mailto:milan.denkovski@gmail.com">
+            <p className="footer-paragraph">milan.denkovski@gmail.com</p>
+          </a>
         </div>
       </div>
     </div>
