@@ -13,13 +13,13 @@ const Services = () => {
         <div className="service-box">
           <h1 className="service-box_heading">UX Designer</h1>
           <p className="service-box_paragraph">
-            UI design, or user interface design, is the process of creating
-            visually appealing and user-friendly interfaces for digital products
-            such as websites, mobile apps, and software. It involves designing
-            the layout, visual elements, and interactive features to ensure a
-            seamless and intuitive user experience. Good UI design is essential
-            for engaging users and promoting usability, accessibility, and
-            overall satisfaction with a product.
+            <b>UI design</b>, or user interface design, is the process of
+            creating visually appealing and user-friendly interfaces for digital
+            products such as websites, mobile apps, and software. It involves
+            designing the layout, visual elements, and interactive features to
+            ensure a seamless and intuitive user experience. Good UI design is
+            essential for engaging users and promoting usability, accessibility,
+            and overall satisfaction with a product.
           </p>
         </div>
 
@@ -27,11 +27,11 @@ const Services = () => {
         <div className="service-box">
           <h1 className="service-box_heading">UI Designer</h1>
           <p className="service-box_paragraph">
-            UX design, or user experience design, is the process of designing
-            digital products with a focus on the user's overall experience. It
-            involves understanding the user's needs,behaviors, and goals to
-            create intuitive and effective interfaces that provide a positive
-            and meaningful
+            <b>UX design</b>, or user experience design, is the process of
+            designing digital products with a focus on the user's overall
+            experience. It involves understanding the user's needs,behaviors,
+            and goals to create intuitive and effective interfaces that provide
+            a positive and meaningful
           </p>
         </div>
 
