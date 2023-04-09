@@ -37,14 +37,14 @@ const Services = () => {
 
         {/* Box 2 */}
         <div className="service-box">
-          <h1 className="service-box_heading">Illustrator Designer</h1>
+          <h1 className="service-box_heading">Graphic Designer</h1>
           <p className="service-box_paragraph">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
-            dolor, officia accusantium obcaecati maiores reiciendis eveniet
-            totam unde nulla nesciunt! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Accusantium voluptas dignissimos vitae iusto rerum
-            quos a. Excepturi ipsa impedit dolor magnam, mollitia soluta quam,
-            ab atque laborum amet sapiente necessitatibus.
+            Creating vector graphics using <b>Adobe Illustrator software</b>.
+            Vector graphics are scalable and can be easily edited without losing
+            quality, making them ideal for creating logos, icons, and
+            illustrations. <b>Illustrator</b> is a powerful tool that allows
+            designers to create complex designs with precision, using features
+            such as layers, gradients, and typography.
           </p>
         </div>
       </div>
